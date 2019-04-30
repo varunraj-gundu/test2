@@ -1,0 +1,200 @@
+531  cd 
+  532  cd ..
+  533  ls
+  534  ls
+  535  pwd
+  536  cd akashsinha/
+  537  ls
+  538  cd Documents/self/programs/
+  539  ls
+  540  cd vi/
+  541  ls
+  542  cat ../googleOnlineTools/sites/
+  543  cat ../googleOnlineTools/sites/htmlbasics/day1.html 
+  544  ls
+  545  cd ../..
+  546  ls
+  547  cd programs/
+  548  cd vi/
+  549  ls
+  550  cd
+  551  ls
+  552  cd Desktop/
+  553  ls
+  554  ls
+  555  cd
+  556  cd Documents/self/programs/vi/
+  557  ls
+  558  mv file.txt data.txt
+  559  ls
+  560  cd ..
+  561  ls
+  562  pwd
+  563  pwd
+  564  pwd
+  565  pwd
+  566  cd vi/
+  567  ls
+  568  ¬
+  569  ls
+  570  pwd
+  571  cd ..
+  572  pwd
+  573  cd vi/
+  574  ls
+  575  pwd
+  576  ls
+  577  git --version
+  578  git help
+  579  ls
+  580  git config --list
+  581  git config --list
+  582  ls
+  583  ls
+  584  git config --global user.name "akashsinha"
+  585  git config user.name
+  586  git config --global user.email akasinha.369@gmail.com
+  587  git config user.email
+  588  git config --global user.email akashsinha.369@gmail.com
+  589  git config user.email
+  590  ls
+  591  pwd
+  592  git init
+  593  ls
+  594  ls -a
+  595  cd .git/
+  596  ls
+  597  cat config 
+  598  cd ..
+  599  ls
+  600  ls
+  601  git add data.txt 
+  602  git status
+  603  git rm --cached data.txt 
+  604  ls
+  605  git status
+  606  git add data.txt 
+  607  git status
+  608  git commit -m "Initial Commit"
+  609  git status
+  610  ls
+  611  touch data2.txt
+  612  ls
+  613  git status
+  614  git add data2.txt 
+  615  git status
+  616  git commit -m "second snapshot"
+  617  git status
+  618  ls
+  619  git log
+  620  cat data.txt 
+  621  cat data2.txt 
+  622  echo "first line data" > data2.txt 
+  623  cat data2.txt 
+  624  git status
+  625  git add data2.txt 
+  626  git status
+  627  echo "second line" >> data2.txt 
+  628  git status
+  629  git add data2.txt 
+  630  git status
+  631  ls
+  632  echo {3:6}
+  633  echo {3,6}
+  634  echo {3-6}
+  635  echo {3..6}
+  636  echo {3..100}
+  637  ls
+  638  touch data{3..4}.txt
+  639  ls
+  640  touch data{5..100}.txt
+  641  ls
+  642  echo {1..100}
+  643  echo {a..z}
+  644  git status
+  645  git add *.txt
+  646  git status
+  647  git commit -m "added 100 files"
+  648  git log
+  649  history 50
+  650  history 100
+  651  history 110
+  652  history 120
+  653  history 100
+  654  history 80
+  655  history 81 > git-commands.txt
+  656  ls
+  657  ping google.com
+  658  ping google.com
+  659  ls
+  660  cat git-commands.txt 
+  661  ls
+  662  rm data{3..100}.txt
+  663  ls
+  664  git remote help
+  665  git remote add gitamfdp https://github.com/Akash-Sinha/Gitam-FDP-April-2019
+  666  ls
+  667  git gitamfdp fetch
+  668  git fetch gitamfdp
+  669  ls
+  670  ls
+  671  cd ..
+  672  ls
+  673  cd vi/
+  674  ls
+  675  git pull gitamfdp
+  676  git pull gitamfdp master
+  677  ls
+  678  cd 
+  679  cd ..
+  680  mkdir gitam
+  681  cd gita
+  682  ls
+  683  cd akashsinha/Documents/self/programs/
+  684  ls
+  685  cd vi/
+  686  ls
+  687  cd ..
+  688  ls
+  689  mkdir gitam
+  690  cd gitam/
+  691  ls
+  692  git init
+  693  git remote add gitamfdp https://github.com/Akash-Sinha/Gitam-FDP-April-2019
+  694  git pull gitamfdp master
+  695  ls
+  696  history 10
+  697  la
+  698  ls
+  699  cd ..
+  700  ls
+  701  mkdir test
+  702  ls
+  703  cd test/
+  704  git init
+  705  git remote add test2 https://github.com/Akash-Sinha/test2/
+  706  git pull test2 master
+  707  ls
+  708  cat data2.txt 
+  709  history 10
+  710  git remote -v
+  711  git remote show test2
+  712  git remote rename test2 test
+  713  git remote show test
+  714  ls
+  715  ls
+  716  cat data2.txt 
+  717  echo "Second Line" >> data2.txt 
+  718  cat data2.txt 
+  719  git add data2.txt 
+  720  git status
+  721  git commit -m "data2 file updated"
+  722  git log
+  723  ls
+  724  git push -u test master
+  725  git push -u test master
+  726  history 20
+  727  ls
+  728  history 100
+  729  history 200
+  730  history 200 > git-commands.txt
